@@ -1,0 +1,18 @@
+<div class="container-fluid" style="width: 90%; margin: auto;">
+  <!-- Navbar -->
+  <app-navbar [homeClass]="''"
+              [surveyClass]="'active'"
+              [volgenauClass]="''"></app-navbar>
+
+  <div class="w3-row-padding w3-container" style="background-color: #FFCC33; padding-top: 10px;">
+    <h1 class="w3-x-large">Thank you for completing the survey!</h1>
+    <h2 class="w3-x-large">Your survey was saved successfully!</h2>
+    <label for="mean" style="font-weight: bold">Mean:</label><br>
+    <label id="mean" for="mean">{{mean}}</label><br><br>
+    <label for="standardDeviation" style="font-weight: bold">Standard Deviation:</label><br>
+    <label id="standardDeviation" for="standardDeviation">{{standardDeviation}}</label><br><br>
+    <h4>Surveys Completed:</h4>
+  </div>
+
+  <app-footer></app-footer>
+</div>

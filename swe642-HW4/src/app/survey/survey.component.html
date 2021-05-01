@@ -1,4 +1,4 @@
-<div class="container" style="width: 90%; margin: auto;">
+<div class="container-fluid" style="width: 90%; margin: auto;">
   <!-- Navbar -->
   <app-navbar [homeClass]="''"
               [surveyClass]="'active'"
@@ -13,14 +13,29 @@
         <div class="w3-col m6">
           <label for="name">Name *</label><br>
           <input type="text" id="name" name="name" required autofocus ngModel><br><br>
-          <label for="studentID">Student ID *</label><br>
-          <input type="text" id="studentID" name="studentID" required ngModel><br><br>
+          <label for="studentId">Student ID *</label><br>
+          <input type="text" id="studentId" name="studentId" required ngModel><br><br>
           <label for="address">Address *</label><br>
           <input type="text" id="address" name="address" required ngModel><br><br>
           <label for="city">City *</label><br>
           <input type="text" id="city" name="city" required ngModel><br><br>
-          <label for="state">State *</label><br>
-          <input type="text" id="state" name="state" required ngModel><br><br>
+          <label for="gradHighSchool" style="font-weight: bold;">High-school graduation month</label>
+          <input type="text" list="months" name="gradMonth" id="gradMonth" ngModel>
+          <datalist id="months">
+            <option value="January">
+            <option value="February">
+            <option value="March">
+            <option value="April">
+            <option value="May">
+            <option value="June">
+            <option value="July">
+            <option value="August">
+            <option value="September">
+            <option value="October">
+            <option value="November">
+            <option value="December">
+          </datalist> Year <input type="number" name="gradYear" id="gradYear" style="width: 20%;" ngModel>
+          <br><br>
           <label for="preferences" style="font-weight: bold;">What you liked the most about the
             campus</label><br>
           <div class="preferencesList">
@@ -38,22 +53,6 @@
             <label for="sports"> Sports</label><br>
           </div>
           <br>
-          <label for="recomm" style="font-weight: bold;">What is the likelihood you recommend us</label>
-          <select name="recommend" id="recommend" ngModel>
-            <option value="Very Likely">Very Likely</option>
-            <option value="Likely">Likely</option>
-            <option value="Unlikely">Unlikely</option>
-          </select><br><br>
-        </div>
-        <div class="w3-col m6">
-          <label for="zip">Zip *</label><br>
-          <input type="number" id="zip" name="zip" pattern="[0-9]{5}" required ngModel><br><br>
-          <label for="date">Date *</label><br>
-          <input type="date" id="date" name="date" required ngModel><br><br>
-          <label for="telephone">Telephone *</label><br>
-          <input type="tel" id="telephone" name="telephone" placeholder="202-455-6785" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required ngModel><br><br>
-          <label for="email">Email *</label><br>
-          <input type="email" id="email" name="email" placeholder="email@gmail.com" required ngModel><br><br>
           <label for="interested" style="font-weight: bold;">How you became interested about
             GMU</label><br>
           <div class="interestedList">
@@ -65,15 +64,44 @@
             <label for="Internet">Internet</label><br>
             <input type="radio" id="other" name="interested" value="other" ngModel>
             <label for="other">Other</label><br>
-          </div>
+          </div><br>
+          <label for="recomm" style="font-weight: bold;">What is the likelihood you recommend us</label>
+          <select name="recommend" id="recommend" ngModel>
+            <option value="Very Likely">Very Likely</option>
+            <option value="Likely">Likely</option>
+            <option value="Unlikely">Unlikely</option>
+          </select><br><br>
+        </div>
+        <div class="w3-col m6">
+          <label for="state">State *</label><br>
+          <input type="text" id="state" name="state" required ngModel><br><br>
+          <label for="zip">Zip *</label><br>
+          <input type="number" id="zip" name="zip" pattern="[0-9]{5}" required ngModel><br><br>
+          <label for="telephone">Telephone *</label><br>
+          <input type="tel" id="telephone" name="telephone" placeholder="202-455-6785" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required ngModel><br><br>
+          <label for="email">Email *</label><br>
+          <input type="email" id="email" name="email" placeholder="email@gmail.com" required ngModel><br><br>
+          <label for="date">Date *</label><br>
+          <input type="date" id="date" name="date" required ngModel><br><br>
+          <label for="url">URL</label><br>
+          <input type="url" id="url" name="url" placeholder="http://www.deitel.com" ngModel><br><br>
+          <label for="data">Data</label><br>
+          <input type="text" id="data" name="data" pattern="(([1-9][0-9]?|100),{0,1}){10}" placeholder="10,2,5,13,5,6,8,1,5,99" ngModel><br><br>
+        </div>
+      </div>
+      <br>
+      <div class="w3-row">
+        <div class="w3-col m6">
+          <label for="comments">Comments</label><br>
+          <textarea id="comments" name="comments" rows="4" form="surveyForm" ngModel></textarea>
         </div>
       </div>
       <br>
       <div class="w3-row">
         <div class="w3-col m3">
-          <input class="button" type="button" onclick="window.location.replace('index.html')" value="Cancel" />
+          <input class="button" type="button" onclick="window.location.replace('survey')" value="Cancel" />
         </div>
-        <div class="w3-col m3">
+        <div class="w3-col m3" style="text-align: right">
           <input type="submit" value="Submit"><br><br>
         </div>
       </div>

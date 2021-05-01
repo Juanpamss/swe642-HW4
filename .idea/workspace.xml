@@ -20,59 +20,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7084a1f3-342b-4343-81d4-9c559d092538" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/swe642-HW4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swe642-HW4/.browserslistrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swe642-HW4/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swe642-HW4/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swe642-HW4/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swe642-HW4/angular.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swe642-HW4/e2e/protractor.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swe642-HW4/e2e/src/app.e2e-spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swe642-HW4/e2e/src/app.po.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swe642-HW4/e2e/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swe642-HW4/karma.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swe642-HW4/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swe642-HW4/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swe642-HW4/src/app/app-routing.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swe642-HW4/src/app/app.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swe642-HW4/src/app/app.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swe642-HW4/src/app/app.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swe642-HW4/src/app/app.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swe642-HW4/src/app/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swe642-HW4/src/app/home/home.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swe642-HW4/src/app/home/home.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swe642-HW4/src/app/home/home.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swe642-HW4/src/app/home/home.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swe642-HW4/src/app/services/student-survey.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swe642-HW4/src/app/services/student-survey.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swe642-HW4/src/app/survey/survey.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swe642-HW4/src/app/survey/survey.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swe642-HW4/src/app/survey/survey.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swe642-HW4/src/app/survey/survey.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swe642-HW4/src/app/volgenau/volgenau.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swe642-HW4/src/app/volgenau/volgenau.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swe642-HW4/src/app/volgenau/volgenau.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swe642-HW4/src/app/volgenau/volgenau.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swe642-HW4/src/assets/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swe642-HW4/src/assets/images/Volgenau.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swe642-HW4/src/assets/images/gmu_white_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swe642-HW4/src/assets/images/tickets.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swe642-HW4/src/assets/jQuery/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swe642-HW4/src/environments/environment.prod.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swe642-HW4/src/environments/environment.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swe642-HW4/src/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swe642-HW4/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swe642-HW4/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swe642-HW4/src/polyfills.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swe642-HW4/src/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swe642-HW4/src/test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swe642-HW4/tsconfig.app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swe642-HW4/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swe642-HW4/tsconfig.spec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swe642-HW4/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swe642-HW4/src/app/models/StudentSurvey.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swe642-HW4/src/app/no-student-error/no-student-error.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swe642-HW4/src/app/no-student-error/no-student-error.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swe642-HW4/src/app/no-student-error/no-student-error.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swe642-HW4/src/app/no-student-error/no-student-error.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swe642-HW4/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/swe642-HW4/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swe642-HW4/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/swe642-HW4/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swe642-HW4/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/swe642-HW4/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swe642-HW4/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/swe642-HW4/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swe642-HW4/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/swe642-HW4/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swe642-HW4/src/app/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/swe642-HW4/src/app/home/home.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swe642-HW4/src/app/navbar/navbar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/swe642-HW4/src/app/navbar/navbar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swe642-HW4/src/app/services/student-survey.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/swe642-HW4/src/app/services/student-survey.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swe642-HW4/src/app/survey/survey.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/swe642-HW4/src/app/survey/survey.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swe642-HW4/src/app/survey/survey.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/swe642-HW4/src/app/survey/survey.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swe642-HW4/src/app/volgenau/volgenau.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/swe642-HW4/src/app/volgenau/volgenau.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swe642-HW4/src/app/volgenau/volgenau.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/swe642-HW4/src/app/volgenau/volgenau.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swe642-HW4/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/swe642-HW4/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swe642-HW4/src/polyfills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/swe642-HW4/src/polyfills.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,15 +61,16 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/swe642-HW4/src/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ArtStoreProjectV4" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="D:\Documents\GitHub\swe642-HW4\swe642-HW4\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Documents\GitHub\swe642-HW4\swe642-HW4\src\assets" />
       <recent name="D:\Documents\GitHub\swe642-HW4\swe642-HW4\src\assets\images" />
+      <recent name="D:\Documents\GitHub\swe642-HW4\swe642-HW4\src\app" />
+      <recent name="D:\Documents\GitHub\swe642-HW4\swe642-HW4\src\assets" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -113,7 +81,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618603247456</updated>
-      <workItem from="1618603248543" duration="7254000" />
+      <workItem from="1618603248543" duration="9908000" />
+      <workItem from="1618721044077" duration="5484000" />
+      <workItem from="1618774994542" duration="10127000" />
+      <workItem from="1619561631598" duration="7412000" />
+      <workItem from="1619720209226" duration="770000" />
+      <workItem from="1619820414323" duration="113000" />
+      <workItem from="1619820612464" duration="1367000" />
     </task>
     <servers />
   </component>
@@ -130,8 +104,15 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1618801156060">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/-1920.9.1920.1040@0.0.1536.824" timestamp="1618801156060" />
   </component>
 </project>

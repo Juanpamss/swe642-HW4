@@ -1,0 +1,66 @@
+<div class="container-fluid" style="width: 90%; margin: auto;">
+  <!-- Navbar -->
+  <app-navbar [homeClass]="''"
+              [surveyClass]="'active'"
+              [volgenauClass]="''"></app-navbar>
+
+  <!-- Survey form data -->
+  <div class="w3-row-padding w3-container" style="background-color: #FFCC33; padding-top: 10px;">
+    <br>
+    <h1 class="w3-x-large">Student survey for: {{studentSurveyData.studentId}}</h1>
+    <div class="w3-row">
+      <div class="w3-col m6">
+        <label for="name" style="font-weight: bold;">Name</label><br>
+        <label id="name" for="name">{{studentSurveyData.name}}</label><br><br>
+        <label for="studentID" style="font-weight: bold;">Student ID</label><br>
+        <label id="studentID" for="studentID">{{studentSurveyData.studentId}}</label><br><br>
+        <label for="address" style="font-weight: bold;">Address</label><br>
+        <label id="address" for="address">{{studentSurveyData.address}}</label><br><br>
+        <label for="city" style="font-weight: bold;">City</label><br>
+        <label id="city" for="city">{{studentSurveyData.city}}</label><br><br>
+        <label for="gradMonth" style="font-weight: bold;">High-school graduation month </label>
+        <label id="gradMonth" for="gradMonth">{{studentSurveyData.gradMonth !== null ? studentSurveyData.gradMonth : 'N/A'}}</label>
+        <label for="gradYear" style="font-weight: bold;"> Year </label>
+        <label id="gradYear" for="gradYear">{{studentSurveyData.gradYear !== null ? studentSurveyData.gradYear : 'N/A'}}</label><br><br><br>
+        <label style="font-weight: bold;">What you liked the most about the campus</label><br>
+        <div class="preferencesList">
+          <ul>
+            <li *ngFor="let preference of preferenceList; let i = index">
+              {{preference}}
+            </li>
+          </ul>
+        </div>
+        <br>
+        <label for="interested" style="font-weight: bold;">How you became interested about GMU</label><br>
+        <label id="interested" for="interested">{{studentSurveyData.interested !== 'null' ? studentSurveyData.interested : 'N/A'}}</label><br><br>
+        <br>
+        <label for="recommend" style="font-weight: bold;">What is the likelihood you recommend George Mason University:</label>
+        <label id="recommend" for="recommend">{{studentSurveyData.recommend !== null ? studentSurveyData.recommend : 'N/A'}}</label><br><br>
+      </div>
+      <div class="w3-col m6">
+        <label for="state" style="font-weight: bold;">State</label><br>
+        <label id="state" for="state">{{studentSurveyData.state}}</label><br><br>
+        <label for="zip" style="font-weight: bold;">Zip</label><br>
+        <label id="zip" for="zip">{{studentSurveyData.zip}}</label><br><br>
+        <label for="telephone" style="font-weight: bold;">Telephone</label><br>
+        <label id="telephone" for="telephone">{{studentSurveyData.telephone}}</label><br><br>
+        <label for="email" style="font-weight: bold;">Email</label><br>
+        <label id="email" for="email">{{studentSurveyData.email}}</label><br><br>
+        <label for="date" style="font-weight: bold;">Date</label><br>
+        <label id="date" for="date">{{studentSurveyData.date}}</label><br><br>
+        <label for="url" style="font-weight: bold;">URL</label><br>
+        <label id="url" for="url">{{studentSurveyData.url !== null ? studentSurveyData.url : 'N/A'}}</label><br><br>
+        <label for="data" style="font-weight: bold;">Data</label><br>
+        <label id="data" for="data">{{studentSurveyData.data !== null ? studentSurveyData.data : 'N/A'}}</label><br><br>
+      </div>
+    </div>
+    <div class="w3-row">
+      <div class="w3-col m6">
+        <label for="comments" style="font-weight: bold;">Comments</label><br>
+        <label id="comments" for="comments">{{studentSurveyData.comments}}</label><br><br>
+      </div>
+    </div>
+    <br>
+  </div>
+  <app-footer></app-footer>
+</div>

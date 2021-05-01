@@ -9,6 +9,12 @@ import { VolgenauComponent } from './volgenau/volgenau.component';
 import { FooterComponent } from './footer/footer.component';
 import {FormsModule} from "@angular/forms";
 import { NavbarComponent } from './navbar/navbar.component';
+import {HttpClientModule} from "@angular/common/http";
+import { WinnerAcknowledgementComponent } from './winner-acknowledgement/winner-acknowledgement.component';
+import { SimpleAcknowledgementComponent } from './simple-acknowledgement/simple-acknowledgement.component';
+import { StudentSurveyInfoComponent } from './student-survey-info/student-survey-info.component';
+import { NoStudentErrorComponent } from './no-student-error/no-student-error.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -17,12 +23,18 @@ import { NavbarComponent } from './navbar/navbar.component';
     SurveyComponent,
     VolgenauComponent,
     FooterComponent,
-    NavbarComponent
+    NavbarComponent,
+    WinnerAcknowledgementComponent,
+    SimpleAcknowledgementComponent,
+    StudentSurveyInfoComponent,
+    NoStudentErrorComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    HttpClientModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
